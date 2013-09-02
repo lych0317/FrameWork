@@ -11,4 +11,19 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #import "MyLogHelper.h"
+    #import "CommonHelpers.h"
+    #import "GlobalKey.h"
+    #import "GlobalUrl.h"
+    #import "MobClick.h"
+    #import "MyTextField.h"
+    #import "MyTextView.h"
+    #import "UILabel+Align.h"
 #endif
+
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define isIphone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isChinese [[CommonHelpers getDataFromUserDefaultWithKey:@"AppleLanguages"][0] isEqualToString:@"zh-Hans"]
