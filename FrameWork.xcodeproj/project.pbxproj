@@ -167,6 +167,8 @@
 		8346465D17D470760015CDC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8346465F17D4707E0015CDC9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8346466117D470850015CDC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83F0D35517D89B2700C08EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F0D35717D89B2900C08EF5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -549,6 +551,7 @@
 			isa = PBXGroup;
 			children = (
 				8346464F17D46D930015CDC9 /* Localizable.strings */,
+				83F0D35617D89B2700C08EF5 /* InfoPlist.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -673,6 +676,15 @@
 				8346465017D46E610015CDC9 /* zh-Hans */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		83F0D35617D89B2700C08EF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F0D35517D89B2700C08EF5 /* en */,
+				83F0D35717D89B2900C08EF5 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

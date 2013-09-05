@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  FrameWork
+
+  Created by 远超 李 on 13-9-5.
+  Copyright (c) 2013年 zero. All rights reserved.
+*/
+
+/* 应用程序名 */
+CFBundleDisplayName = "FrameWork";
